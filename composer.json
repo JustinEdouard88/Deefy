@@ -1,0 +1,17 @@
+{
+    "name": "iutnc/deefy",
+    "description": "le meilleur streaming audio de tout l'iut",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "iutnc\\deefy\\audio\\tracks\\": "src/Class/Tracks/",
+            "iutnc\\deefy\\audio\\lists\\": "src/Class/List/",
+            "iutnc\\deefy\\render\\": "src/Class/Render/",
+            "iutnc\\deefy\\exception\\": "src/Class/Exception/",
+            "iutnc\\deefy\\action\\": "src/Class/Action/",
+            "iutnc\\deefy\\dispatch\\": "src/Class/Dispatch/",
+            "iutnc\\deefy\\repository\\": "src/Class/Repository/"
+            
+        }
+    }
+}
